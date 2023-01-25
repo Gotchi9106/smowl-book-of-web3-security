@@ -9,4 +9,5 @@ npm run create [path] [flags] See also the Hugo docs: hugo new.
 lint Check scripts, styles, and markdown for errors:
 npm run lint scripts Check scripts for errors:
 npm run lint:scripts [-- --fix] styles Check styles for errors:
-npm run lint:styles [-- --fix] markdown Check markdown for errors:</description></item></channel></rss>
+npm run lint:styles [-- --fix] markdown Check markdown for errors:
+npm run lint:markdown [-- --fix] clean Delete temporary directories:</description></item></channel></rss>
