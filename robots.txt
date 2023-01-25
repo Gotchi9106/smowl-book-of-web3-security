@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gotchi9106.github.io/smowl-book-of-web3-security/sitemap.xml
