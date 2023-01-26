@@ -1,4 +1,4 @@
-var suggestions=document.getElementById("suggestions"),userinput=document.getElementById("userinput");document.addEventListener("keydown",inputFocus);function inputFocus(e){e.keyCode===191&&(e.preventDefault(),userinput.focus()),e.keyCode===27&&(userinput.blur(),suggestions.classList.add("d-none"))}document.addEventListener("click",function(e){var t=suggestions.contains(e.target);t||suggestions.classList.add("d-none")}),document.addEventListener("keydown",suggestionFocus);function suggestionFocus(e){const s=suggestions.querySelectorAll("a"),o=[...s],t=o.indexOf(document.activeElement);let n=0;e.keyCode===38?(e.preventDefault(),n=t>0?t-1:0,s[n].focus()):e.keyCode===40&&(e.preventDefault(),n=t+1<o.length?t+1:t,s[n].focus())}(function(){var e=new FlexSearch.Document({tokenize:"forward",cache:100,document:{id:"id",store:["href","title","description"],index:["title","description","content"]}});e.add({id:0,href:"https://gotchi9106.github.io/smowl-book-of-web3-security/docs/prologue/introduction/",title:"Introduction",description:"Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default.",content:`\u003ch2 id="get-started"\u003eGet started\u003c/h2\u003e
+var suggestions=document.getElementById("suggestions"),userinput=document.getElementById("userinput");document.addEventListener("keydown",inputFocus);function inputFocus(e){e.keyCode===191&&(e.preventDefault(),userinput.focus()),e.keyCode===27&&(userinput.blur(),suggestions.classList.add("d-none"))}document.addEventListener("click",function(e){var t=suggestions.contains(e.target);t||suggestions.classList.add("d-none")}),document.addEventListener("keydown",suggestionFocus);function suggestionFocus(e){const s=suggestions.querySelectorAll("a"),o=[...s],t=o.indexOf(document.activeElement);let n=0;e.keyCode===38?(e.preventDefault(),n=t>0?t-1:0,s[n].focus()):e.keyCode===40&&(e.preventDefault(),n=t+1<o.length?t+1:t,s[n].focus())}(function(){var e=new FlexSearch.Document({tokenize:"forward",cache:100,document:{id:"id",store:["href","title","description"],index:["title","description","content"]}});e.add({id:0,href:"https://smowlsecurity.xyz/docs/prologue/introduction/",title:"Introduction",description:"Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default.",content:`\u003ch2 id="get-started"\u003eGet started\u003c/h2\u003e
 \u003cp\u003eThere are two main ways to get started with Doks:\u003c/p\u003e
 \u003ch3 id="tutorial"\u003eTutorial\u003c/h3\u003e
 \u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
@@ -32,7 +32,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cp\u003eFind out how to contribute to Doks. \u003ca href="https://getdoks.org/docs/contributing/how-to-contribute/"\u003eContributing →\u003c/a\u003e\u003c/p\u003e
 \u003ch2 id="help"\u003eHelp\u003c/h2\u003e
 \u003cp\u003eGet help on Doks. \u003ca href="/docs/help/how-to-update/"\u003eHelp →\u003c/a\u003e\u003c/p\u003e
-`}).add({id:1,href:"https://gotchi9106.github.io/smowl-book-of-web3-security/docs/prologue/quick-start/",title:"Quick Start",description:"One page summary of how to start a new Doks project.",content:`\u003ch2 id="requirements"\u003eRequirements\u003c/h2\u003e
+`}).add({id:1,href:"https://smowlsecurity.xyz/docs/prologue/quick-start/",title:"Quick Start",description:"One page summary of how to start a new Doks project.",content:`\u003ch2 id="requirements"\u003eRequirements\u003c/h2\u003e
 \u003cp\u003eDoks uses npm to centralize dependency management, making it \u003ca href="/docs/help/how-to-update/"\u003eeasy to update\u003c/a\u003e resources, build tooling, plugins, and build scripts:\u003c/p\u003e
 \u003cul\u003e
 \u003cli\u003eDownload and install \u003ca href="https://nodejs.org/"\u003eNode.js\u003c/a\u003e (it includes npm) for your platform.\u003c/li\u003e
@@ -64,7 +64,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cp\u003eDoks will start the Hugo development webserver accessible by default at \u003ccode\u003ehttp://localhost:1313\u003c/code\u003e. Saved changes will live reload in the browser.\u003c/p\u003e
 \u003ch2 id="other-commands"\u003eOther commands\u003c/h2\u003e
 \u003cp\u003eDoks comes with commands for common tasks. \u003ca href="/docs/prologue/commands/"\u003eCommands →\u003c/a\u003e\u003c/p\u003e
-`}).add({id:2,href:"https://gotchi9106.github.io/smowl-book-of-web3-security/docs/prologue/commands/",title:"Commands",description:"Doks comes with commands for common tasks.",content:`\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
+`}).add({id:2,href:"https://smowlsecurity.xyz/docs/prologue/commands/",title:"Commands",description:"Doks comes with commands for common tasks.",content:`\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
   \u003cdiv class="flex-shrink-1 alert-icon"\u003e💡 \u003c/div\u003e
   
     \u003cdiv class="w-100"\u003eYou can change the commands in the scripts section of \`./package.json\`. \u003c/div\u003e
@@ -112,7 +112,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cp\u003eBuild production website including draft and future content:\u003c/p\u003e
 \u003cpre\u003e\u003ccode class="language-bash"\u003enpm run build:preview
 \u003c/code\u003e\u003c/pre\u003e
-`}).add({id:3,href:"https://gotchi9106.github.io/smowl-book-of-web3-security/docs/help/how-to-update/",title:"How to Update",description:"Regularly update the installed npm packages to keep your Doks website stable, usable, and secure.",content:`\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
+`}).add({id:3,href:"https://smowlsecurity.xyz/docs/help/how-to-update/",title:"How to Update",description:"Regularly update the installed npm packages to keep your Doks website stable, usable, and secure.",content:`\u003cdiv class="alert alert-warning d-flex" role="alert"\u003e
   \u003cdiv class="flex-shrink-1 alert-icon"\u003e💡 \u003c/div\u003e
   
     \u003cdiv class="w-100"\u003eLearn more about \u003ca href="https://docs.npmjs.com/about-semantic-versioning"\u003esemantic versioning\u003c/a\u003e and \u003ca href="https://docs.npmjs.com/cli/v6/using-npm/semver#advanced-range-syntax"\u003eadvanced range syntax\u003c/a\u003e. \u003c/div\u003e
@@ -127,7 +127,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cp\u003eThe \u003ca href="https://docs.npmjs.com/cli/v7/commands/npm-update"\u003e\u003ccode\u003enpm update\u003c/code\u003e\u003c/a\u003e command will update all the packages listed to the latest version (specified by the tag config), respecting semver:\u003c/p\u003e
 \u003cpre\u003e\u003ccode class="language-bash"\u003enpm update [\u0026lt;pkg\u0026gt;...]
 \u003c/code\u003e\u003c/pre\u003e
-`}).add({id:4,href:"https://gotchi9106.github.io/smowl-book-of-web3-security/docs/help/troubleshooting/",title:"Troubleshooting",description:"Solutions to common problems.",content:`\u003ch2 id="problems-updating-npm-packages"\u003eProblems updating npm packages\u003c/h2\u003e
+`}).add({id:4,href:"https://smowlsecurity.xyz/docs/help/troubleshooting/",title:"Troubleshooting",description:"Solutions to common problems.",content:`\u003ch2 id="problems-updating-npm-packages"\u003eProblems updating npm packages\u003c/h2\u003e
 \u003cp\u003eDelete the \u003ccode\u003e./node_modules\u003c/code\u003e folder, and run again:\u003c/p\u003e
 \u003cpre\u003e\u003ccode class="language-bash"\u003enpm install
 \u003c/code\u003e\u003c/pre\u003e
@@ -135,7 +135,7 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cp\u003eDelete the temporary directories:\u003c/p\u003e
 \u003cpre\u003e\u003ccode class="language-bash"\u003enpm run clean
 \u003c/code\u003e\u003c/pre\u003e
-`}).add({id:5,href:"https://gotchi9106.github.io/smowl-book-of-web3-security/docs/help/faq/",title:"FAQ",description:"Answers to frequently asked questions.",content:`\u003ch2 id="hyas"\u003eHyas?\u003c/h2\u003e
+`}).add({id:5,href:"https://smowlsecurity.xyz/docs/help/faq/",title:"FAQ",description:"Answers to frequently asked questions.",content:`\u003ch2 id="hyas"\u003eHyas?\u003c/h2\u003e
 \u003cp\u003eDoks is a \u003ca href="https://gethyas.com/themes/"\u003eHyas theme\u003c/a\u003e build by the creator of Hyas.\u003c/p\u003e
 \u003ch2 id="footer-notice"\u003eFooter notice?\u003c/h2\u003e
 \u003cp\u003ePlease keep it in place.\u003c/p\u003e
@@ -165,4 +165,4 @@ var suggestions=document.getElementById("suggestions"),userinput=document.getEle
 \u003cli\u003e\u003ca href="https://discourse.gohugo.io/"\u003eHugo Forums\u003c/a\u003e\u003c/li\u003e
 \u003cli\u003e\u003ca href="https://github.com/h-enk/doks/discussions"\u003eDoks Discussions\u003c/a\u003e\u003c/li\u003e
 \u003c/ul\u003e
-`}).add({id:6,href:"https://gotchi9106.github.io/smowl-book-of-web3-security/docs/help/",title:"Help",description:"Help Doks.",content:""}).add({id:7,href:"https://gotchi9106.github.io/smowl-book-of-web3-security/docs/prologue/",title:"Prologue",description:"Prologue Doks.",content:""}).add({id:8,href:"https://gotchi9106.github.io/smowl-book-of-web3-security/docs/",title:"Docs",description:"Docs Doks.",content:""}),userinput.addEventListener("input",t,!0),suggestions.addEventListener("click",n,!0);function t(){const n=5;var s=this.value,o=e.search(s,{limit:n,enrich:!0});suggestions.classList.remove("d-none"),suggestions.innerHTML="";const t={};o.forEach(e=>{e.result.forEach(e=>{t[e.doc.href]=e.doc})});for(const s in t){const o=t[s],e=document.createElement("div");if(e.innerHTML="<a href><span></span><span></span></a>",e.querySelector("a").href=s,e.querySelector("span:first-child").textContent=o.title,e.querySelector("span:nth-child(2)").textContent=o.description,suggestions.appendChild(e),suggestions.childElementCount==n)break}}function n(){for(;suggestions.lastChild;)suggestions.removeChild(suggestions.lastChild);return!1}})()
+`}).add({id:6,href:"https://smowlsecurity.xyz/docs/help/",title:"Help",description:"Help Doks.",content:""}).add({id:7,href:"https://smowlsecurity.xyz/docs/prologue/",title:"Prologue",description:"Prologue Doks.",content:""}).add({id:8,href:"https://smowlsecurity.xyz/docs/",title:"Docs",description:"Docs Doks.",content:""}),userinput.addEventListener("input",t,!0),suggestions.addEventListener("click",n,!0);function t(){const n=5;var s=this.value,o=e.search(s,{limit:n,enrich:!0});suggestions.classList.remove("d-none"),suggestions.innerHTML="";const t={};o.forEach(e=>{e.result.forEach(e=>{t[e.doc.href]=e.doc})});for(const s in t){const o=t[s],e=document.createElement("div");if(e.innerHTML="<a href><span></span><span></span></a>",e.querySelector("a").href=s,e.querySelector("span:first-child").textContent=o.title,e.querySelector("span:nth-child(2)").textContent=o.description,suggestions.appendChild(e),suggestions.childElementCount==n)break}}function n(){for(;suggestions.lastChild;)suggestions.removeChild(suggestions.lastChild);return!1}})()
